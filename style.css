@@ -1,0 +1,56 @@
+body {
+  background: url("https://roadster.hu/app/uploads/2019/07/jacob-plumb-UghHZmnJw58-unsplash-1600x1060.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#div-container {
+  margin: 10% auto;
+  position: relative;
+  max-width: 700px;
+  text-align: center;
+  position: relative;
+}
+
+#main-canvas {
+  margin: 0 auto;
+  border: 5px solid green;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-container {
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  color: black;
+  font-size: 3rem;
+  border: 3px solid black;
+  background-color: green;
+}
+
+.game-over {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none;
+}
+
+.highscore-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 8rem;
+  width: 12rem;
+  position: absolute;
+  left: 50%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+}
